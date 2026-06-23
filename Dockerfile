@@ -11,7 +11,7 @@ RUN npm install --omit=dev
 COPY app.js ./
 
 # 暴露 3000 端口
-EXPOSE 3000
+EXPOSE 7860
 
 # 启动应用
 CMD ["node", "app.js"]
